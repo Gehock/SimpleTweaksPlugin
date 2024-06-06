@@ -79,9 +79,7 @@ public class Changelog : Window {
             .Sub("You can also set a permanent decoration to be used all year round.");
     }
 
-#if DEBUG
     public const string UnreleasedVersion = "99.99.99.99";
-#endif 
 
     private static Dictionary<Version, List<ChangelogEntry>> Entries = new();
 
