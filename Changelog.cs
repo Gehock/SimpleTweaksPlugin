@@ -80,9 +80,7 @@ public class Changelog : Window {
         Add("1.10.0.0", "Support for Dawntrail");
     }
 
-#if DEBUG
     public const string UnreleasedVersion = "99.99.99.99";
-#endif 
 
     private static Dictionary<Version, List<ChangelogEntry>> Entries = new();
 
